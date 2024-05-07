@@ -5,6 +5,11 @@
     font-family: "Lato", sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 /* regole barra superiore */
 header {
     width: 100%;
@@ -21,13 +26,79 @@ header {
     font-size: small;
 }
 
-.container a {
-    text-decoration: none;
-    color: white;
-}
-
 .label {
     background-color: rgb(97, 96, 96);
     padding: 2px 3px;
     border-radius: 5px;
+}
+
+
+
+
+/* regole barra inferiore */
+.container-bottom {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(34, 34, 34);
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* parte sinistra barra inferiore */
+.click {
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icons {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.text {
+    font-size: 12px;
+}
+
+.fa-angle-up {
+    font-size: 10px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+
+/* parte centrale barra inferiore */
+.menu {
+    width: 60%;
+    min-height: 100%;
+}
+
+
+/* parte destra barra inferiore */
+.end-call {
+    width: 20%;
+    height: 100%;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.meeting {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(71, 71, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#red {
+    color: red;
 }
