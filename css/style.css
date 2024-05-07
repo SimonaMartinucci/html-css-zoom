@@ -13,8 +13,8 @@ a {
 /* regole barra superiore */
 header {
     width: 100%;
-    height: 70px;
-    background-color: rgb(34, 34, 34);
+    height: 50px;
+    background-color: black;
     padding-top: 3px;
     position: fixed;
     top: 0;
@@ -41,9 +41,10 @@ header {
 .container-main {
     width: 100%;
     background-color: black;
+    overflow-y: auto;
     /* DEBUG */
-    min-height: calc(100vh - 80px);
-    padding-top: 130px;
+    height: calc(100vh - 80px);
+    padding-top: 50px;
 }
 
 .people-space {
@@ -87,6 +88,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 900;
 }
 
 /* parte sinistra barra inferiore */
